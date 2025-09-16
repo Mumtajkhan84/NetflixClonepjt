@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.main {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    background-image: url(bg.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+
+.main .box {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.60;
+    position: absolute;
+    top: 0%;
+    background-color: black;
+}
+
+nav {
+    margin: auto;
+    max-width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans-Serif';
+    height: calc(100% - 62px);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+    padding: 0 40px;
+}
+
+
+.hero> :first-child {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.hero> :nth-child(2) {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.hero> :nth-child(3) {
+    font-size: 15px;
+    font-weight: bold;
+}
+.hero> :nth-child(4) {
+    font-size: 13px;
+    font-weight: bold;
+        color: #dbd5d5;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(102, 102, 102);
+}
+.qq{
+background-color: green;
+}
+
+.btn {
+    padding: 3px 8px;
+    background-color: #2d2929;
+    color: white;
+    margin-right: 5px;
+    border-radius: 4px;
+    border: 0.1px solid white;
+    cursor: pointer;
+    margin-top: 14px;
+}
+.khan{
+    
+}
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+@media screen and (max-width: 600px){
+    .khan{
+    flex-wrap: wrap;
+}
+}
+
+.main input {
+    background-color: rgba(23, 23, 23, 0.2);
+    padding: 3px 24px;
+    font-size: 25px;
+    border-radius: 4px;
+     border: 0.1px solid #aca1a1;
+    color: white;
+    margin-left: 100px;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 25px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+main {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(73, 72, 70, 0.237);
+}
+
+.ab h1 {
+    margin-left: 284px;
+    margin-top: 0px;
+    padding-top: 50px;
+    color: white;
+}
+
+.wrapper {
+    background-color: rgba(115, 0, 255, 0.043);
+    height: 35vh;
+    width: 70vw;
+    border: none;
+    display: flex;
+    margin-left: 300px;
+    overflow-x: auto;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 25px;
+    margin-top: 15px;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.item {
+
+    background-color: rgba(43, 0, 255, 0.536);
+    border: none;
+    height: 230px;
+    min-width: 200px;
+    margin-left: 5px;
+
+}
+@media screen and (max-width: 600px){
+    .item{
+    flex-wrap: wrap;
+}
+}
+
+.item1{
+
+    /* border-image-width: 100%; */
+    background-size: 195px;
+    background-image: url(1st.jpg);
+  
+}
+.item2{
+
+    border-image-width: 100%;
+    background-size: 195px;
+    background-image: url(2nd.jpg);
+}
+.item3{
+
+    border-image-width: 100%;
+    background-size: 195px;
+    background-image: url(3rd.jpg);
+}
+.item4{
+
+    border-image-width: 100%;
+    background-size: 195px;
+    background-image: url(4th.jpg);
+}
+.item5{
+
+    border-image-width: 100%;
+    background-size: 195px;
+    background-image: url(5th.jpg);
+}
+.item6{
+
+    border-image-width: 100%;
+     background-size: 195px;
+    background-image: url(6th.jpg);
+}
+.item7{
+
+    border-image-width: 100%;
+   background-size: 195px;
+    background-image: url(7th.jpg);
+}
+.item8{
+
+    border-image-width: 100%;
+    background-size: 195px;
+    background-image: url(8th.jpg);
+}
+.item9{
+
+    border-image-width: 100%;
+    background-size: 298px;
+    background-image: url(9th.jpg);
+}
+.item10{
+
+    border-image-width: 100%;
+    background-size: 195px;
+    background-image: url(10th.jpg);
+}
+.j {
+    font-size: 105px;
+    padding-top: 115px;
+    height: 2px;
+    /* border: 1px solid green; */
+    color: white;
+    opacity: 0.7;
+}
+
+.cards {
+    height: 255px;
+    width: 70vw;
+    display: flex;
+    margin-left: 300px;
+    border: none;
+    margin-top: 15px;
+
+}
+
+.card {
+    border-radius: 27px;
+    height: 236px;
+
+    /* display: flex
+; */
+background-color: #0f0d0d;;
+    border: 1px solid rgba(65, 63, 63, 0.921);
+    width: 349px;
+    color: white;
+    margin: 8px;
+
+}
+
+.card h2 {
+    margin-top: 30px;
+    font-size: 18px;
+    padding-left: 35px;
+}
+
+.card p {
+    font-size: 10px;
+    margin-top: 10px;
+    padding-left: 35px;
+}
+.faq h2{
+    margin-left: 280px
+    
+}
+.faq{
+    background: black;
+    color: white;
+    padding: 38px;
+    
+}
+.faqbox:hover{
+background-color: rgba(195, 190, 190, 0.309);
+}
+.faqbox{
+    font-size: 20px;
+     display: flex;
+     transition: all 1s ease-out;;
+    padding: 20px;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.37);
+    max-width: 66.3vw;
+    margin: 7px auto;
+    margin-left: 280px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.ri-add-fill{
+    font-size: 20px;
+}
+h5{
+    text-align: center;
+    color: white;
+
+    /* background-color: red; */
+}
+.mum{
+    text-align: center;
+}
+ input {
+        background-color: rgba(23, 23, 23, 0.2);
+    padding: 8px 36px;
+    font-size: 23px;
+    border-radius: 4px;
+    border: 0.1px solid #aca1a1;
+    color: white;
+    
+    width: 380px;
+    margin-top: 10px;
+}
+
+.bt {
+padding: 9px 23px;
+    font-size: 17px;
+    background-color: red;
+    color: white;
+    /* padding: 3px 24px; */
+    font-size: 23px;
+}
+.sepration{
+       color: white;
+    padding-top: 15px;
+    font-size: 10px;
+    text-align: center;
+    margin-right: 421px;
+}
+footer{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 65vh;
+    margin: auto;
+        column-gap: 100px;
+}
+.footer-item{
+    font-size: 14px;
+    color: white;
+    display: flex;
+   row-gap: 10px;
+    flex-direction: column;
+}
